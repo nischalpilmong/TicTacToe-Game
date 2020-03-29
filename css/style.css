@@ -1,9 +1,20 @@
 #gameboard{
-  background: red;
+  width: 360px;
+  margin: 80px auto 0px auto;
 }
 .row{
-  background: blue;
+  clear: both;
+  overflow: hidden;
 }
 .square{
-  background: green;
+  float: left;
+  width: 119px;
+  height: 119px;
+  cursor: pointer;
+}
+.bottom{
+  border-bottom: 1px solid black;
+}
+.right{
+ border-right: 1px solid black;
 }
