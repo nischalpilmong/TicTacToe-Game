@@ -2,13 +2,13 @@ $(document).ready(function(){
    let player = 1;
    $('.square').on('click',function(event){
       var squareSelected = $(this);
-       if(squareSelected.hasClass('ex') || squareSelected.hasClass('oh')){
+       if(squareSelected.hasClass('fas fa-times') || squareSelected.hasClass('far fa-circle')){
          alert('This square has already been selected.Please select another..!');
        }
        else{
          if(player == 1){
-           squareSelected.addClass('ex');
-           if(checkIfPlayerWon('ex')){
+           squareSelected.addClass('fas fa-times');
+           if(checkIfPlayerWon('fas fa-times')){
              alert('Congrats! Player' + player + 'has won!');
            }
            else{
@@ -16,8 +16,8 @@ $(document).ready(function(){
            }
          }
          else{
-           squareSelected.addClass('oh');
-           if(checkIfPlayerWon('oh')){
+           squareSelected.addClass('far fa-circle');
+           if(checkIfPlayerWon('far fa-circle')){
              alert('Congrats! Player' + player + 'has won!');
            }
            else{

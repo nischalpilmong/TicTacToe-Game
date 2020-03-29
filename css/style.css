@@ -9,8 +9,11 @@
 .square{
   float: left;
   width: 119px;
-  height: 119px;
+  height: 90px;
   cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 29px;
 }
 .bottom{
   border-bottom: 1px solid black;
@@ -23,4 +26,8 @@
 }
 .oh{
  background-color: blue;
+}
+#results{
+  padding-top: 40px;
+  text-align: center;
 }
