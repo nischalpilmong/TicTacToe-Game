@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nischalpilmong/TicTacToe-Game.git"
+  },
+  "author": "Nischal Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nischalpilmong/TicTacToe-Game/issues"
+  },
+  "homepage": "https://github.com/nischalpilmong/TicTacToe-Game#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
