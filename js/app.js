@@ -8,6 +8,7 @@ $(document).ready(function(){
        else{
          if(player == 1){
            squareSelected.addClass('ex');
+
            player = 2;
          }
          else{
@@ -16,4 +17,5 @@ $(document).ready(function(){
          }
        }
    });
+   
 });
